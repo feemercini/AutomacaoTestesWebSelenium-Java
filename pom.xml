@@ -16,13 +16,14 @@
     </properties>
 
     <dependencies>
+        <!-- CUCUMBER: PARA O JUNIT EXECUTAR -->
         <dependency>
             <groupId>info.cukes</groupId>
             <artifactId>cucumber-junit</artifactId>
             <version>1.2.5</version>
             <scope>test</scope>
         </dependency>
-
+        <!-- CUCUMBER: PARA INTERPRETAR O BDD-->
         <dependency>
             <groupId>info.cukes</groupId>
             <artifactId>cucumber-java</artifactId>
